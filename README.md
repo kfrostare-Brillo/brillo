@@ -1,2 +1,2 @@
-# The Brillo App
+# The Brillo App [![Netlify Status](https://api.netlify.com/api/v1/badges/03f45f7d-450e-4f76-bf5c-173ffd2711db/deploy-status)](https://app.netlify.com/sites/kfrostare-brillo/deploys)
 Stay tuned for a complete readme template...
