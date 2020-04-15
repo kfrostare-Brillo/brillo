@@ -9,16 +9,29 @@ html {
 }
 body {
   padding: 0 16px;
+  background-image: url(./brillo_flowers.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h1 {
   margin: 3px;
   font-size: 20px;
 }
 .header {
-  background-color: #f5ba13;
   margin: auto -15px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  background: #d9a7c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fffcdc, #d9a7c7);
 }
 
 .footer {
@@ -30,7 +43,7 @@ h1 {
 }
 
 .footer p {
-  color: #ababab;
+  color: #782e50;
   font-size: small;
 }
 .note {
