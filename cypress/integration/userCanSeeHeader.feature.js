@@ -1,4 +1,4 @@
-describe("User can se header and", () => {
+describe("User can se header and it", () => {
   it("shows the title", () => {
     cy.exec("yarn start");
     cy.visit("/");
