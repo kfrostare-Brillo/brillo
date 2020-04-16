@@ -9,7 +9,7 @@ html {
 }
 body {
   padding: 0 16px;
-  background-image: url(./brillo_flowers.jpg);
+  background-image: url(./brillo_workspace2.jpg);
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -18,20 +18,15 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h1 {
-  margin: 3px;
+  margin: 10px;
   font-size: 20px;
+  color: white;
 }
 .header {
   margin: auto -15px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  background: #d9a7c7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #fffcdc,
-    #d9a7c7
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fffcdc, #d9a7c7);
+  background: black;
 }
 
 .footer {
@@ -43,21 +38,22 @@ h1 {
 }
 
 .footer p {
-  color: #782e50;
+  color: black;
   font-size: small;
 }
 .note {
-  background: #fff;
+  background: black;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
-  padding: 10px;
-  width: 240px;
+  padding: 20px;
+  width: 300px;
   margin: 16px;
   float: left;
 }
 .note h1 {
   font-size: 1em;
   margin-bottom: 6px;
+  color: white;
 }
 .note p {
   font-size: 0.9em;
@@ -65,4 +61,5 @@ h1 {
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+  color: white;
 }
