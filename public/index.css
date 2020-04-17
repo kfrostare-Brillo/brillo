@@ -45,21 +45,25 @@ h1 {
   background: black;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
-  padding: 20px;
+  padding: 30px;
   width: 300px;
   margin: 16px;
   float: left;
 }
-.note h1 {
-  font-size: 1em;
+.title {
+  font-size: 1.2em;
   margin-bottom: 6px;
   color: white;
+  background-color: black;
+  border: none;
 }
-.note p {
+.paragraph {
   font-size: 0.9em;
-  margin-left: 3px;
-  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-bottom: 5px;
   white-space: pre-wrap;
   word-wrap: break-word;
   color: white;
+  background-color: black;
+  border: none;
 }
